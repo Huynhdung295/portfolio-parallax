@@ -1,55 +1,52 @@
-.content-home{
-    padding-top: 18%;
-    padding-left: 5%;
+.content-home {
+  padding-top: 18%;
+  padding-left: 5%;
 }
-.text-home-intro{
-      color: rgba(255,255,255,.7);
-    font-size: 4rem;
-    line-height: 1;
-    padding-bottom: 1.5rem;
+.text-home-intro {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 4rem;
+  line-height: 1;
+  padding-bottom: 1.5rem;
 }
-.text-typed{
-font-size: 3rem;
-  color: rgba(255,255,255,.5);
+.text-typed {
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 800px) {
 }
 
 @media (max-width: 767px) {
-    .content-home{
-        padding-top: 30%;
-    }
-    .text-home-intro{
-        font-size: 3.5rem;
-    }
-    .text-typed{
-        font-size: 2.4rem;
-        }
+  .content-home {
+    padding-top: 30%;
+  }
+  .text-home-intro {
+    font-size: 3.5rem;
+  }
+  .text-typed {
+    font-size: 2.4rem;
+  }
 }
 
 @media (max-width: 480px) {
-    .content-home{
-        padding-top: 46%;
-    }
-    .text-home-intro{
-        font-size: 2.8rem;
-        
-    }
-    .text-typed{
-        font-size: 1.6rem;
-        }
+  .content-home {
+    padding-top: 46%;
+  }
+  .text-home-intro {
+    font-size: 2.8rem;
+  }
+  .text-typed {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 440px) {
-    .content-home{
-        padding-top: 59%;
-    }
-    .text-home-intro{
-        font-size: 2.8rem;
-        
-    }
-    .text-typed{
-        font-size: 1.6rem;
-        }
+  .content-home {
+    padding-top: 59%;
+  }
+  .text-home-intro {
+    font-size: 2.8rem;
+  }
+  .text-typed {
+    font-size: 1.6rem;
+  }
 }
-

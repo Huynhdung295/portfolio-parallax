@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section className="contact py-5">
       <div className="container">
-        <h2 className="mb-5 text-center">Contact Us</h2>
+        <h2 className="mb-5 text-center">Contact Me</h2>
         <div className="row">
           <div className="col-md-6 mb-3 mb-md-0">
             <div>

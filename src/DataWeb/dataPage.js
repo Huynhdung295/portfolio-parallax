@@ -11,13 +11,13 @@ const dataPage = [
   },
   {
     page: "About",
-    url: "https://source.unsplash.com/aOC7TSLb1o8/1600x900",
+    url: "https://source.unsplash.com/cckf4TsHAuw/1600x900",
     id: "about",
     content: <About />,
   },
   {
     page: "Portfolio",
-    url: "https://source.unsplash.com/cckf4TsHAuw/1600x900",
+    url: "https://source.unsplash.com/aOC7TSLb1o8/1600x900",
     id: "portfolio",
     content: "",
   },
