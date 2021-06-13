@@ -32,4 +32,26 @@
 }
 
 @media (max-width: 480px) {
+
+}
+
+@media (max-width: 390px) {
+    .text-contact{
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+    .icon-contact{
+        padding-right: 1rem;
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 330px) {
+    .text-contact{
+        font-size: 1rem;
+        letter-spacing: 0.1rem;
+    }
+    .icon-contact{
+        padding-right: 1rem;
+        font-size: 1.5rem;
+    }
 }
