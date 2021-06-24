@@ -49,7 +49,7 @@ function About() {
             <span ref={ver3} />
           </div>
         </div>
-        <Button content="Show more about me" text="text-light-b" linkTo="/"/>
+        <Button content="Show more about me" text="text-light-b" linkTo="/my-resume"/>
       </div>
      <button></button>
     </div>
