@@ -1,6 +1,6 @@
 import React from "react";
 import useTyped from "use-typed";
-
+import Button from "../Button/Button";
 import "./About.css";
 
 function About() {
@@ -30,12 +30,14 @@ function About() {
     strings: ["- My hobby is reading and technology."],
     typeSpeed: 45,
     loop: false,
-    startDelay: 16000,
+    startDelay: 15700,
     showCursor: false,
   });
+  
 
   return (
     <div>
+      <h2 className="mb-5 text-center">About Me</h2>
       <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-3"></div>
         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 py-3">
@@ -47,7 +49,9 @@ function About() {
             <span ref={ver3} />
           </div>
         </div>
+        <Button content="Show more about me" text="text-light-b" linkTo="/"/>
       </div>
+     <button></button>
     </div>
   );
 }

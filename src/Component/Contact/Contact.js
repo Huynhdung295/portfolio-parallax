@@ -15,19 +15,19 @@ function Contact() {
                 <p className="text-contact">Distric 7, HCMC.</p>
               </div>
               <div className="d-flex">
-              <i class="fas fa-phone icon-contact"></i>
+              <i className="fas fa-phone icon-contact"></i>
                 <p className="text-contact">0889 310 211</p>
               </div>
               <div className="d-flex">
-                <i class="far fa-envelope icon-contact"></i>
+                <i className="far fa-envelope icon-contact"></i>
                 <p className="text-contact">hohuynhdung@gmail.com</p>
               </div>
               <div className="d-flex">
-              <i class="fab fa-github icon-contact"></i>
+              <i className="fab fa-github icon-contact"></i>
                 <p className="text-contact">github.com/Huynhdung295</p>
               </div>
               <div className="d-flex">
-              <i class="fab fa-facebook icon-contact"></i>
+              <i className="fab fa-facebook icon-contact"></i>
                 <p className="text-contact">facebook.com/hhdungfed295</p>
               </div>
             </div>
@@ -53,7 +53,7 @@ function Contact() {
                 className="form-control mb-3"
                 defaultValue={""}
               />
-              <button type="submit" className="btn btn-primary btn-block">
+              <button type="submit" className="btn btn-primary btn-block btn-contact">
                 Submit
               </button>
             </form>

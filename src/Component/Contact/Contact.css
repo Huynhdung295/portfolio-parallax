@@ -9,6 +9,13 @@
     line-height: 1.1;
     color: rgba(255,255,255,.6);
 }
+.btn-contact{
+    background: rgba(0,0,0,0.55);
+    border: none;
+}
+.btn-contact:hover{
+    background: rgba(0,0,0,0.7);
+}
 
 @media (min-width: 900px) {
     .icon-contact{

@@ -1,7 +1,7 @@
 import Home from "../Component/Home/Home";
 import About from "../Component/About/About";
 import Contact from "../Component/Contact/Contact";
-
+import Project from "../Component/Project/Project"
 
 
 const dataPage = [
@@ -21,7 +21,7 @@ const dataPage = [
     page: "Portfolio",
     url: "https://source.unsplash.com/aOC7TSLb1o8",
     id: "portfolio",
-    content: "",
+    content: <Project />,
   },
   {
     page: "Contact",

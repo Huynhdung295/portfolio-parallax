@@ -1,0 +1,93 @@
+.show-more {
+  display: block;
+  border: 2px solid rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.arrows {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.button-show {
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+.text-dark-b {
+  color: #333;
+}
+.text-light-b .show-more {
+  border: 2px solid rgba(255, 255, 255, 0.7) !important;
+}
+.text-light-b .arrow,
+.text-light-b .arrow::before,
+.text-light-b .arrow-hidden,
+.text-light-b .arrow-hidden:before {
+  background: rgba(255, 255, 255, 0.7) !important;
+}
+
+.text-light-b {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration-color: rgba(255, 255, 255, 0.7) !important;
+}
+.text-light-b .show-more-button:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+.text-light-b:hover .show-more-text {
+  color: rgba(255, 255, 255, 0.9);
+}
+.show-more-button:hover {
+  color: #000;
+}
+.show-more-button:hover .arrow {
+  left: 70px;
+  transition: left 0.3s ease-in-out;
+}
+.show-more-button:hover .arrow-hidden {
+  left: 17px;
+  transition: left 0.3s ease-in-out;
+}
+.show-more-button .arrow,
+.show-more-button .arrow-hidden {
+  width: 20px;
+  height: 2px;
+  background: #000;
+  display: inline-block;
+  position: absolute;
+  top: 31px;
+  left: 17px;
+  transform: rotate(-45deg);
+  transition: left 0.3s ease-in-out;
+}
+.show-more-button .arrow:before,
+.show-more-button .arrow-hidden:before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  display: block;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  bottom: 0px;
+}
+.show-more-button .arrow-hidden {
+  left: -80px;
+}
+.show-more-text {
+  margin-top: 10px;
+  display: block;
+  font-weight: 600;
+}
+
