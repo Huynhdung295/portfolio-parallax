@@ -63,6 +63,7 @@ function Project() {
   })
   return (
     <div>
+       <h2 className="mb-5 text-center">Portfolio</h2>
      <div className="wrapper-project">
      <div className="box-show">
        {renderProject}
