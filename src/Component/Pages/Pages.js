@@ -11,13 +11,13 @@ function Page() {
         style={{
           backgroundImage: `url(${data.url})`,
         }}
-        className="wrapper overlay"
+        className="wrapper overlay "
       >
-          {data.content}
+        {data.content}
       </div>
     );
   });
-  return <div>{data}</div>;
+  return <div className="fade-in">{data}</div>;
 }
 
 export default Page;
