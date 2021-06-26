@@ -1,7 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
-.my-resume{
+.my-resume {
   margin: 3rem 0;
 }
 /*===== VARIABLES CSS =====*/
@@ -20,7 +20,7 @@
   --text-color-rs-light: #707070;
   --container-color-rs: #fafafa;
   --container-color-rs-alt: #f0efef;
-  --body-color-rs: rgba(255,255,255,.9);
+  --body-color-rs: rgba(255, 255, 255, 0.9);
 
   /*========== Font and typography ==========*/
   --body-font-rs: "Poppins", sans-serif;
@@ -553,23 +553,26 @@ img {
     column-gap: 3.5rem;
   }
 }
-.button-fixed{
+.button-fixed {
   position: fixed;
   width: 100%;
   bottom: 5%;
 }
-@media (max-width: 967px){
-  .button-show{
+@media (max-width: 967px) {
+  .button-fixed .button-show {
     bottom: 27rem;
     right: 80%;
     transform: scale(0.7);
   }
 }
-span.home__infomartion{
+span.home__infomartion {
   font-size: 0.938rem;
 }
-body.dark-theme .text-dark-b{
-  color: white
+span.interests__name{
+  font-size: 0.938rem;
+}
+body.dark-theme .text-dark-b {
+  color: white;
 }
 body.dark-theme .text-dark-b .show-more {
   border: 2px solid rgba(255, 255, 255, 0.7) !important;
