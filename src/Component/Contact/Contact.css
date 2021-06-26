@@ -62,3 +62,8 @@
         font-size: 1.5rem;
     }
 }
+@media (min-width:768px){
+    .text-contact{
+        line-height: 2.5rem;
+    }
+}
