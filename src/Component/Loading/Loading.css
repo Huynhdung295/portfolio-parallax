@@ -30,9 +30,9 @@
     top: 0; left: 0;
     width: 130px;  height: 100%;
     background: #fff;
-    animation: animate 5s infinite linear;
+    animation: loading 5s infinite linear;
 }
-@keyframes animate{
+@keyframes loading{
     0%{
         left: 0;
     }
