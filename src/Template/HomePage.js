@@ -6,11 +6,13 @@ import Loading from "../Component/Loading/Loading";
 function HomePage() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-    const isLoading = setTimeout(() => {
+  
+    setInterval(() => {
       setLoading(false);
-    }, 3000);
+    }, 1000);
     return () => {
-      clearTimeout(isLoading);
+      clearInterval(loading);
+   
     };
   }, []);
 
