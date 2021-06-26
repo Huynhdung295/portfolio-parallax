@@ -1,6 +1,13 @@
 import React from "react";
 import Button from "../Button/Button";
 import honda from "../../img/Honda/honda.png";
+import movie from "../../img/Movie/movie.png";
+import mitech from "../../img/Mitech/mitech.png";
+import dashboard from "../../img/Dashboard/dashboard.png";
+import portfolio1 from "../../img/Portfolio/portfolio1.png";
+import portfolio2 from "../../img/Portfolio/portfolio2.png";
+import disney from "../../img/Disney/disney.png";
+
 import "./Project.css";
 function Project() {
   const dataProject = [
@@ -8,43 +15,43 @@ function Project() {
       style: {"--i": 1 },
       src: honda,
       alt:  "honda",
-      title: "Honda Template"
+      title: "Honda UI"
     },
     {
       style: {"--i": 2 },
-      src:honda,
-      alt:  "honda",
-      title: "Honda Template"
+      src:movie,
+      alt:  "movie",
+      title: "Booking Movie"
     },
     {
       style: {"--i": 3},
-      src:honda,
-      alt:  "honda",
-      title: "Honda Template"
+      src:mitech,
+      alt:  "mitech",
+      title: "Mitech UI"
     },
     {
       style: {"--i": 4 },
-      src:honda,
-      alt:  "honda",
-      title: "Honda Template"
+      src:dashboard,
+      alt:  "dashboard",
+      title: "Dashboard UI"
     },
     {
       style: {"--i": 5 },
-      src:honda,
-      alt:  "honda",
-      title: "Honda Template"
+      src:portfolio1,
+      alt:  "portfolio1",
+      title: "Portfolio UI - I"
     },
     {
       style: {"--i": 6 },
-      src:honda,
-      alt:  "honda",
-      title: "Honda Template"
+      src:portfolio2,
+      alt:  "portfolio2",
+      title: "Portfolio UI - II"
     },
     {
       style: {"--i": 7 },
-      src:honda,
-      alt:  "honda",
-      title: "Honda Template"
+      src:disney,
+      alt:  "disney",
+      title: "Disney Plus UI"
     },
     {
       style: {"--i": 8 },

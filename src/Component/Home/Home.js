@@ -19,7 +19,9 @@ function Home() {
   return (
     <div>
       <div className="content-home">
-        <div className="text-home-intro">Welcome to my portfolio!</div>
+        <div className="text-home-intro text-jump">
+          Welcome to my portfolio!
+        </div>
         <span className="text-typed" ref={InforTyped} />
       </div>
     </div>

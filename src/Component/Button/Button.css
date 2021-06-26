@@ -8,6 +8,7 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  margin-right: 0;
 }
 
 .arrows {
@@ -90,4 +91,13 @@
   display: block;
   font-weight: 600;
 }
-
+@media (max-width: 600px) {
+  .show-more-text {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 770px) {
+  .text-about span {
+    font-size: 1.2rem;
+  }
+}

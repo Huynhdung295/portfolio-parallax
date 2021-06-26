@@ -2,18 +2,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh;
+  min-height: 100vh;
 }
-
-
 .box-show h3 {
   font-size: 1.3rem;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   width: 60%;
   color: rgba(255, 255, 255, 0.8);
 }
-.box-show img{
-max-width: 90%
+.box-show img {
+  max-width: 90%;
+  height: 50%;
 }
 .box-show {
   position: relative;
