@@ -557,10 +557,11 @@ img {
   position: fixed;
   width: 100%;
   bottom: 5%;
+  height: 100%;
 }
 @media (max-width: 967px) {
   .button-fixed .button-show {
-    bottom: 27rem;
+   top: 2.5%; 
     right: 80%;
     transform: scale(0.7);
   }
