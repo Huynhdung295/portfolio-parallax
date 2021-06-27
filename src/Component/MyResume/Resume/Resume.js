@@ -3,7 +3,7 @@ import Navbar from "./NavbarRS/Navbar";
 import ResumeLeft from "./ResumeLeft/ResumeLeft";
 import ResumeRight from "./ResumeRight/ResumeRight";
 import ScrollTop from "./ScrollTop/ScrollTop";
-import Loading from "../../Loading/Loading";
+
 
 import "./Resume.css";
 

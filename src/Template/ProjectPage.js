@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Project from "../Component/Pages/Project";
 import Button from "../Component/Button/Button";
 import Loading from "../Component/Loading/Loading";
@@ -18,8 +18,10 @@ function ProjectPage() {
       {loading ? (
         <Loading />
       ) : (
-        ((<Project />),
-        (<Button content="Go back Home" linkTo="/" text="text-light-b" />))
+        <div>
+          <Project />,
+          <Button content="Go back Home" linkTo="/" text="text-light-b" />
+        </div>
       )}
     </div>
   );
